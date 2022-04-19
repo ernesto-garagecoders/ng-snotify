@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Observable } from 'rxjs';
-import { SnotifyPosition, SnotifyService, SnotifyToastConfig } from 'ng-snotify';
+import { SnotifyPosition, SnotifyService, SnotifyToastConfig, Snotify } from 'ng-snotify';
 
 @Component({
   selector: 'app-root',
@@ -115,7 +115,7 @@ export class AppComponent {
     this.snotifyService.async(
       'Called with promise',
       'Error async',
-      new Promise((resolve, reject) => {
+      new Promise<Snotify>((resolve, reject) => {
         setTimeout(
           () =>
             reject({
@@ -127,7 +127,7 @@ export class AppComponent {
             }),
           1000
         );
-        setTimeout(() => resolve(), 1500);
+        setTimeout(() => resolve(null), 1500);
       }),
       config
     );

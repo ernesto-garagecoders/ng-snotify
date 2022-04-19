@@ -22,6 +22,7 @@
     "angular 9",
     "angular 10",
     "angular 11",
+    "angular 12",
     "ng",
     "ng2",
     "ng4",
@@ -32,6 +33,7 @@
     "ng9",
     "ng10",
     "ng11",
+    "ng12",
     "Angular2",
     "Angular4",
     "Angular5",
@@ -41,6 +43,7 @@
     "Angular9",
     "Angular10",
     "Angular11",
+    "Angular12",
     "2",
     "4",
     "5",
@@ -50,6 +53,7 @@
     "9",
     "10",
     "11",
+    "12",
     "Library",
     "Notifications",
     "Notification",
@@ -72,6 +76,7 @@
     "ng9-snotify",
     "ng10-snotify",
     "ng11-snotify",
+    "ng12-snotify",
     "angular2 notifications",
     "angular4 notifications",
     "angular5 notifications",
@@ -81,6 +86,7 @@
     "angular9 notifications",
     "angular10 notifications",
     "angular11 notifications",
+    "angular12 notifications",
     "toaster"
   ],
   "license": "MIT",
@@ -88,9 +94,9 @@
     "url": "https://artemsky.github.io/ng-snotify/issues"
   },
   "peerDependencies": {
-    "@angular/core": "^9.0.0||^10.0.0||^11.0.0",
+    "@angular/core": "^12.0.0",
     "rxjs": "^6.5.4",
-    "zone.js": "^0.10.2",
+    "zone.js": "^0.11.4",
     "tslib": "^2.0.0"
   }
 }
