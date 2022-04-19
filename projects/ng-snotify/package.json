@@ -1,7 +1,7 @@
 {
   "name": "ng-snotify",
   "description": "Angular 2+ notifications center",
-  "version": "9.0.2",
+  "version": "10.0.0",
   "homepage": "https://artemsky.github.io/ng-snotify",
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
     "angular 7",
     "angular 8",
     "angular 9",
+    "angular 10",
     "ng",
     "ng2",
     "ng4",
@@ -28,6 +29,7 @@
     "ng7",
     "ng8",
     "ng9",
+    "ng10",
     "Angular2",
     "Angular4",
     "Angular5",
@@ -35,6 +37,7 @@
     "Angular7",
     "Angular8",
     "Angular9",
+    "Angular10",
     "2",
     "4",
     "5",
@@ -42,6 +45,7 @@
     "7",
     "8",
     "9",
+    "10",
     "Library",
     "Notifications",
     "Notification",
@@ -62,6 +66,7 @@
     "ng7-snotify",
     "ng8-snotify",
     "ng9-snotify",
+    "ng10-snotify",
     "angular2 notifications",
     "angular4 notifications",
     "angular5 notifications",
@@ -69,6 +74,7 @@
     "angular7 notifications",
     "angular8 notifications",
     "angular9 notifications",
+    "angular10 notifications",
     "toaster"
   ],
   "license": "MIT",
@@ -76,8 +82,9 @@
     "url": "https://artemsky.github.io/ng-snotify/issues"
   },
   "peerDependencies": {
-    "@angular/core": "^9.0.0",
+    "@angular/core": "^10.0.0",
     "rxjs": "^6.5.4",
-    "zone.js": "^0.10.2"
+    "zone.js": "^0.10.2",
+    "tslib": "^2.0.0"
   }
 }
