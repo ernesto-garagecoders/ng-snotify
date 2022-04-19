@@ -1,5 +1,5 @@
 import { FormsModule } from '@angular/forms';
-import { ComponentFixture, async, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 import { SnotifyModule, SnotifyPosition, SnotifyService, ToastDefaults } from 'ng-snotify';
 
@@ -9,7 +9,7 @@ describe('NgSnotify Testing', () => {
   let service: SnotifyService;
   let compiled;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       imports: [FormsModule, SnotifyModule],
       declarations: [AppComponent],
